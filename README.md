@@ -32,15 +32,20 @@ Demonstrate your understanding of this week's concepts by answering the followin
 
 Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your project manager
 
-1. If you were to describe semantic HTML to the next cohort of students, what would you say?
+1. If you were to describe semantic HTML to the next cohort of students, what would you say? <br>
+I would say that it is a process of providing meaning to your content by giving the content tags that describe what it is. Semantic HTML keeps code readable, organized and easier to maintain.<br>
 
-2. Name two big differences between ```display: block;``` and ```display: inline;```.
+2. Name two big differences between ```display: block;``` and ```display: inline;```.<br>
+The first big difference between ```display: block;``` and ```display: inline;``` is that ```display: inline;``` allows for elements to be nested within other elements without disrupting the flow of content, but ```display: block;``` will start on a new line which means it will disrupt the flow of content. The second big difference is that with ```display: inline;```, height and width have no effect, it only takes up as much space as it's content, rather than ```display: block;```, if you want to control block elements, you will need to add in both the height and width properties since ```display: block;```takes up as much height and width parent elements allow. <br>
 
-3. What are the 4 areas of the box model?
+3. What are the 4 areas of the box model?<br>
+Four areas of the box model are content, padding, border, and margin. <br>
 
-4. While using flexbox, what axis does the following property work on: ```align-items: center```?
+4. While using flexbox, what axis does the following property work on: ```align-items: center```?<br>
+The property ```align-items: center``` works on the cross-axis which is from top to bottom. <br>
 
-5. Explain why git is valuable to a team of developers.
+5. Explain why git is valuable to a team of developers. <br>
+Git is valuable to to a team of developers because it has a very strong branch capabilities, everyone can work on their own code and then when they are done they can all review each other's code and merge all of it into one. Also git is widely known so it works as such a tool for a team of developers to be able to collab all together. Git also tracks the changes one made so it would be easier to figure out a problem to fix it. <br>
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
