@@ -105,151 +105,96 @@ header nav a:hover {
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
 }
-
-.top-content .text-container {
-    width: 48%;
-    padding: 0 1%;
-    padding-bottom: 20px;  
+.about {
+    margin-bottom: 20px;
 }
 
-.middle-content {
+
+h2 {
+    margin-top: 10px;
+}
+
+.strategy {
+    height: 450px;
+    width: 370px;
+    margin-right: 20px;
+    margin-left: 10px;
+    display: inline-block;
+    margin-bottom: 20px;
+    border-bottom: 1px dashed black;
+    
+}
+.strategy-image {
+    height: 230px;
+    width: 370px;
+    margin-top: 20px;
+}
+.how-we-work {
+    height: 450px;
+    width: 370px;
+    margin-right: 10px;
+    margin-left: 10px;
+    display: inline-block;
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
 }
 
-.middle-content h2 {
-    padding: 0 2%;
-    margin-bottom: 0;
+.how-we-work-image {
+    height: 230px;
+    width: 370px;
+    margin-top: 20px;
 }
 
-.middle-content .boxes {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
+.places-we-work {
+    height: 450px;
+    width: 370px;
+    margin-right: 20px;
+    margin-left: 10px;
+    display: inline-block;
+    margin-bottom: 20px;
+    border-bottom: 1px dashed black;
 }
 
-.box1 {
-    width: 12.5%;
-    height: 100px;
-    background: teal;
-    margin: 20px 2.5%;
-    color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.places-we-work-image {
+    height: 230px;
+    width: 370px;
+    margin-top: 20px;
 }
 
-.box2 {
-    width: 12.5%;
-    height: 100px;
-    background: gold;
-    margin: 20px 2.5%;
-    color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.collaboration {
+    height: 450px;
+    width: 370px;
+    margin-right: 10px;
+    margin-left: 10px;
+    display: inline-block;
+    margin-bottom: 20px;
+    border-bottom: 1px dashed black;
 }
 
-.box3 {
-    width: 12.5%;
-    height: 100px;
-    background: cadetblue;
-    margin: 20px 2.5%;
-    color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.collaboration-image {
+    height: 230px;
+    width: 370px;
+    margin-top: 20px;
 }
 
-.box4 {
-    width: 12.5%;
-    height: 100px;
-    background: coral;
-    margin: 20px 2.5%;
-    color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
 
-.box5 {
-    width: 12.5%;
-    height: 100px;
-    background: crimson;
-    margin: 20px 2.5%;
-    color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.box6 {
-    width: 12.5%;
-    height: 100px;
-    background: forestgreen;
-    margin: 20px 2.5%;
-    color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.box7 {
-    width: 12.5%;
-    height: 100px;
-    background: darkorchid;
-    margin: 20px 2.5%;
-    color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.box8 {
-    width: 12.5%;
-    height: 100px;
-    background: hotpink;
-    margin: 20px 2.5%;
-    color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.box9 {
-    width: 12.5%;
-    height: 100px;
-    background: indigo;
-    margin: 20px 2.5%;
-    color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.box10 {
-    width: 12.5%;
-    height: 100px;
-    background: dodgerblue;
-    margin: 20px 2.5%;
-    color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+button {
+    background: white;
+	font-size: 15px;
+	border: 2px solid black;
+    cursor: pointer;
+    border-radius: 12px;
+    padding: 10px 30px;
+    margin: 20px 0px ;
+  }
+  button:hover {
+    background: red;
+    color: white; 
 }
 
 .bottom-content {
-    display: flex;
-    margin: 0 2% 20px;
-    justify-content: space-around;
-}
-
-.bottom-content .text-container {
-    padding-right: 4%;
-}
-
-.bottom-content .text-container:last-child {
-    padding-right: 0;
+    display: inline-block;
+    margin: 30px 0px 40px 15px;
 }
 
 footer {
@@ -275,6 +220,7 @@ footer nav a:hover {
     text-decoration: underline;
     color: red;
 }
+
 @keyframes img-stretch {
     0% {
       transform: scale(1);
